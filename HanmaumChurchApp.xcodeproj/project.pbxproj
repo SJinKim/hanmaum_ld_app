@@ -7,18 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CB972202C0E4E4900C5CBF8 /* NoticeBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9721F2C0E4E4900C5CBF8 /* NoticeBoardView.swift */; };
+		3CB972222C0E4F7000C5CBF8 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB972212C0E4F7000C5CBF8 /* Entry.swift */; };
+		3CB972242C0E5B3200C5CBF8 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB972232C0E5B3200C5CBF8 /* EntryView.swift */; };
 		3CFEFF392C0CD62C005EE494 /* HanmaumChurchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF382C0CD62C005EE494 /* HanmaumChurchAppApp.swift */; };
-		3CFEFF3B2C0CD62C005EE494 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF3A2C0CD62C005EE494 /* ContentView.swift */; };
+		3CFEFF3B2C0CD62C005EE494 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF3A2C0CD62C005EE494 /* MainView.swift */; };
 		3CFEFF3D2C0CD62D005EE494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CFEFF3C2C0CD62D005EE494 /* Assets.xcassets */; };
 		3CFEFF402C0CD62D005EE494 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CFEFF3F2C0CD62D005EE494 /* Preview Assets.xcassets */; };
+		3CFEFF482C0CD707005EE494 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3CFEFF472C0CD707005EE494 /* FirebaseAuth */; };
+		3CFEFF4A2C0CD707005EE494 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3CFEFF492C0CD707005EE494 /* FirebaseFirestore */; };
+		3CFEFF4C2C0CD707005EE494 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3CFEFF4B2C0CD707005EE494 /* FirebaseFirestoreSwift */; };
+		3CFEFF4E2C0CD8E0005EE494 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CFEFF4D2C0CD8E0005EE494 /* GoogleService-Info.plist */; };
+		3CFEFF542C0CDAEC005EE494 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF532C0CDAEC005EE494 /* ProfileView.swift */; };
+		3CFEFF562C0CDB0A005EE494 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF552C0CDB0A005EE494 /* ToDoListView.swift */; };
+		3CFEFF582C0CDB3B005EE494 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF572C0CDB3B005EE494 /* NewItemView.swift */; };
+		3CFEFF5A2C0CDB4D005EE494 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF592C0CDB4D005EE494 /* LoginView.swift */; };
+		3CFEFF5C2C0CDB55005EE494 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF5B2C0CDB55005EE494 /* RegisterView.swift */; };
+		3CFEFF5E2C0CDB7E005EE494 /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF5D2C0CDB7E005EE494 /* ToDoListItemView.swift */; };
+		3CFEFF602C0CDBD0005EE494 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF5F2C0CDBD0005EE494 /* User.swift */; };
+		3CFEFF622C0CDBDC005EE494 /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF612C0CDBDC005EE494 /* ToDoListItem.swift */; };
+		3CFEFF642C0CDC2D005EE494 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF632C0CDC2D005EE494 /* MainViewViewModel.swift */; };
+		3CFEFF662C0CDC37005EE494 /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF652C0CDC37005EE494 /* ProfileViewViewModel.swift */; };
+		3CFEFF682C0CDC47005EE494 /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF672C0CDC47005EE494 /* ToDoListViewViewModel.swift */; };
+		3CFEFF6A2C0CDC58005EE494 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF692C0CDC58005EE494 /* NewItemViewViewModel.swift */; };
+		3CFEFF6C2C0CDC65005EE494 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF6B2C0CDC65005EE494 /* RegisterViewViewModel.swift */; };
+		3CFEFF6E2C0CDC71005EE494 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF6D2C0CDC71005EE494 /* LoginViewViewModel.swift */; };
+		3CFEFF702C0CDCC9005EE494 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF6F2C0CDCC9005EE494 /* ToDoListItemViewViewModel.swift */; };
+		3CFEFF722C0DA849005EE494 /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF712C0DA849005EE494 /* CustomHeaderView.swift */; };
+		3CFEFF742C0DB18C005EE494 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF732C0DB18C005EE494 /* CustomButton.swift */; };
+		3CFEFF792C0DC5F7005EE494 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF782C0DC5F7005EE494 /* Extensions.swift */; };
+		3CFEFF7D2C0E3EFD005EE494 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF7C2C0E3EFD005EE494 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CB9721F2C0E4E4900C5CBF8 /* NoticeBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeBoardView.swift; sourceTree = "<group>"; };
+		3CB972212C0E4F7000C5CBF8 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		3CB972232C0E5B3200C5CBF8 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
 		3CFEFF352C0CD62C005EE494 /* HanmaumChurchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanmaumChurchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFEFF382C0CD62C005EE494 /* HanmaumChurchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanmaumChurchAppApp.swift; sourceTree = "<group>"; };
-		3CFEFF3A2C0CD62C005EE494 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CFEFF3A2C0CD62C005EE494 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3CFEFF3C2C0CD62D005EE494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CFEFF3F2C0CD62D005EE494 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CFEFF4D2C0CD8E0005EE494 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "HanmaumChurchApp/Other/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3CFEFF532C0CDAEC005EE494 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3CFEFF552C0CDB0A005EE494 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ToDoListView.swift; path = ../Views/ToDoListView.swift; sourceTree = "<group>"; };
+		3CFEFF572C0CDB3B005EE494 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
+		3CFEFF592C0CDB4D005EE494 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3CFEFF5B2C0CDB55005EE494 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		3CFEFF5D2C0CDB7E005EE494 /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
+		3CFEFF5F2C0CDBD0005EE494 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3CFEFF612C0CDBDC005EE494 /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
+		3CFEFF632C0CDC2D005EE494 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		3CFEFF652C0CDC37005EE494 /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
+		3CFEFF672C0CDC47005EE494 /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
+		3CFEFF692C0CDC58005EE494 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
+		3CFEFF6B2C0CDC65005EE494 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		3CFEFF6D2C0CDC71005EE494 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
+		3CFEFF6F2C0CDCC9005EE494 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		3CFEFF712C0DA849005EE494 /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		3CFEFF732C0DB18C005EE494 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		3CFEFF782C0DC5F7005EE494 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3CFEFF7C2C0E3EFD005EE494 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CFEFF482C0CD707005EE494 /* FirebaseAuth in Frameworks */,
+				3CFEFF4A2C0CD707005EE494 /* FirebaseFirestore in Frameworks */,
+				3CFEFF4C2C0CD707005EE494 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +103,11 @@
 		3CFEFF372C0CD62C005EE494 /* HanmaumChurchApp */ = {
 			isa = PBXGroup;
 			children = (
-				3CFEFF382C0CD62C005EE494 /* HanmaumChurchAppApp.swift */,
-				3CFEFF3A2C0CD62C005EE494 /* ContentView.swift */,
-				3CFEFF3C2C0CD62D005EE494 /* Assets.xcassets */,
+				3CFEFF512C0CD9F4005EE494 /* Models */,
+				3CFEFF752C0DBD3F005EE494 /* Controllers */,
+				3CFEFF4F2C0CD9E9005EE494 /* Views */,
+				3CFEFF502C0CD9F0005EE494 /* ViewModels */,
+				3CFEFF522C0CDA0B005EE494 /* Other */,
 				3CFEFF3E2C0CD62D005EE494 /* Preview Content */,
 			);
 			path = HanmaumChurchApp;
@@ -65,6 +119,67 @@
 				3CFEFF3F2C0CD62D005EE494 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CFEFF4F2C0CD9E9005EE494 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CFEFF572C0CDB3B005EE494 /* NewItemView.swift */,
+				3CFEFF5D2C0CDB7E005EE494 /* ToDoListItemView.swift */,
+				3CFEFF712C0DA849005EE494 /* CustomHeaderView.swift */,
+				3CFEFF732C0DB18C005EE494 /* CustomButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3CFEFF502C0CD9F0005EE494 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3CFEFF632C0CDC2D005EE494 /* MainViewViewModel.swift */,
+				3CFEFF652C0CDC37005EE494 /* ProfileViewViewModel.swift */,
+				3CFEFF672C0CDC47005EE494 /* ToDoListViewViewModel.swift */,
+				3CFEFF692C0CDC58005EE494 /* NewItemViewViewModel.swift */,
+				3CFEFF6D2C0CDC71005EE494 /* LoginViewViewModel.swift */,
+				3CFEFF6B2C0CDC65005EE494 /* RegisterViewViewModel.swift */,
+				3CFEFF6F2C0CDCC9005EE494 /* ToDoListItemViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3CFEFF512C0CD9F4005EE494 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CFEFF5F2C0CDBD0005EE494 /* User.swift */,
+				3CFEFF612C0CDBDC005EE494 /* ToDoListItem.swift */,
+				3CB972212C0E4F7000C5CBF8 /* Entry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3CFEFF522C0CDA0B005EE494 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3CFEFF382C0CD62C005EE494 /* HanmaumChurchAppApp.swift */,
+				3CFEFF4D2C0CD8E0005EE494 /* GoogleService-Info.plist */,
+				3CFEFF3C2C0CD62D005EE494 /* Assets.xcassets */,
+				3CFEFF782C0DC5F7005EE494 /* Extensions.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3CFEFF752C0DBD3F005EE494 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CFEFF3A2C0CD62C005EE494 /* MainView.swift */,
+				3CFEFF592C0CDB4D005EE494 /* LoginView.swift */,
+				3CFEFF5B2C0CDB55005EE494 /* RegisterView.swift */,
+				3CFEFF552C0CDB0A005EE494 /* ToDoListView.swift */,
+				3CFEFF7C2C0E3EFD005EE494 /* HomeView.swift */,
+				3CB9721F2C0E4E4900C5CBF8 /* NoticeBoardView.swift */,
+				3CFEFF532C0CDAEC005EE494 /* ProfileView.swift */,
+				3CB972232C0E5B3200C5CBF8 /* EntryView.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +198,11 @@
 			dependencies = (
 			);
 			name = HanmaumChurchApp;
+			packageProductDependencies = (
+				3CFEFF472C0CD707005EE494 /* FirebaseAuth */,
+				3CFEFF492C0CD707005EE494 /* FirebaseFirestore */,
+				3CFEFF4B2C0CD707005EE494 /* FirebaseFirestoreSwift */,
+			);
 			productName = HanmaumChurchApp;
 			productReference = 3CFEFF352C0CD62C005EE494 /* HanmaumChurchApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +231,9 @@
 				Base,
 			);
 			mainGroup = 3CFEFF2C2C0CD62C005EE494;
+			packageReferences = (
+				3CFEFF462C0CD707005EE494 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 3CFEFF362C0CD62C005EE494 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +250,7 @@
 			files = (
 				3CFEFF402C0CD62D005EE494 /* Preview Assets.xcassets in Resources */,
 				3CFEFF3D2C0CD62D005EE494 /* Assets.xcassets in Resources */,
+				3CFEFF4E2C0CD8E0005EE494 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +261,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CFEFF3B2C0CD62C005EE494 /* ContentView.swift in Sources */,
+				3CFEFF5A2C0CDB4D005EE494 /* LoginView.swift in Sources */,
+				3CFEFF742C0DB18C005EE494 /* CustomButton.swift in Sources */,
+				3CFEFF722C0DA849005EE494 /* CustomHeaderView.swift in Sources */,
+				3CFEFF3B2C0CD62C005EE494 /* MainView.swift in Sources */,
+				3CFEFF642C0CDC2D005EE494 /* MainViewViewModel.swift in Sources */,
+				3CFEFF6E2C0CDC71005EE494 /* LoginViewViewModel.swift in Sources */,
+				3CFEFF562C0CDB0A005EE494 /* ToDoListView.swift in Sources */,
+				3CFEFF5C2C0CDB55005EE494 /* RegisterView.swift in Sources */,
+				3CFEFF6C2C0CDC65005EE494 /* RegisterViewViewModel.swift in Sources */,
+				3CFEFF662C0CDC37005EE494 /* ProfileViewViewModel.swift in Sources */,
+				3CFEFF542C0CDAEC005EE494 /* ProfileView.swift in Sources */,
+				3CFEFF602C0CDBD0005EE494 /* User.swift in Sources */,
+				3CFEFF5E2C0CDB7E005EE494 /* ToDoListItemView.swift in Sources */,
+				3CB972202C0E4E4900C5CBF8 /* NoticeBoardView.swift in Sources */,
+				3CFEFF682C0CDC47005EE494 /* ToDoListViewViewModel.swift in Sources */,
 				3CFEFF392C0CD62C005EE494 /* HanmaumChurchAppApp.swift in Sources */,
+				3CB972222C0E4F7000C5CBF8 /* Entry.swift in Sources */,
+				3CFEFF7D2C0E3EFD005EE494 /* HomeView.swift in Sources */,
+				3CFEFF792C0DC5F7005EE494 /* Extensions.swift in Sources */,
+				3CFEFF622C0CDBDC005EE494 /* ToDoListItem.swift in Sources */,
+				3CFEFF582C0CDB3B005EE494 /* NewItemView.swift in Sources */,
+				3CFEFF6A2C0CDC58005EE494 /* NewItemViewViewModel.swift in Sources */,
+				3CFEFF702C0CDCC9005EE494 /* ToDoListItemViewViewModel.swift in Sources */,
+				3CB972242C0E5B3200C5CBF8 /* EntryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +420,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HanmaumChurchApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LD;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +449,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HanmaumChurchApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LD;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,6 +490,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3CFEFF462C0CD707005EE494 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3CFEFF472C0CD707005EE494 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CFEFF462C0CD707005EE494 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3CFEFF492C0CD707005EE494 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CFEFF462C0CD707005EE494 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3CFEFF4B2C0CD707005EE494 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CFEFF462C0CD707005EE494 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3CFEFF2D2C0CD62C005EE494 /* Project object */;
 }
