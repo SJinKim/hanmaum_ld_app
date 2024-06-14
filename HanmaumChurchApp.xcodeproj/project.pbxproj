@@ -10,6 +10,9 @@
 		3CB972202C0E4E4900C5CBF8 /* NoticeBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9721F2C0E4E4900C5CBF8 /* NoticeBoardView.swift */; };
 		3CB972222C0E4F7000C5CBF8 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB972212C0E4F7000C5CBF8 /* Entry.swift */; };
 		3CB972242C0E5B3200C5CBF8 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB972232C0E5B3200C5CBF8 /* EntryView.swift */; };
+		3CC400B42C1CEDEE00A96CAE /* ScrollingCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC400B32C1CEDEE00A96CAE /* ScrollingCarouselView.swift */; };
+		3CC400B62C1CEE1000A96CAE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC400B52C1CEE0F00A96CAE /* Card.swift */; };
+		3CC400B82C1CFC2E00A96CAE /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC400B72C1CFC2E00A96CAE /* RoomView.swift */; };
 		3CFEFF392C0CD62C005EE494 /* HanmaumChurchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF382C0CD62C005EE494 /* HanmaumChurchAppApp.swift */; };
 		3CFEFF3B2C0CD62C005EE494 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEFF3A2C0CD62C005EE494 /* MainView.swift */; };
 		3CFEFF3D2C0CD62D005EE494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CFEFF3C2C0CD62D005EE494 /* Assets.xcassets */; };
@@ -43,6 +46,9 @@
 		3CB9721F2C0E4E4900C5CBF8 /* NoticeBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeBoardView.swift; sourceTree = "<group>"; };
 		3CB972212C0E4F7000C5CBF8 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		3CB972232C0E5B3200C5CBF8 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		3CC400B32C1CEDEE00A96CAE /* ScrollingCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingCarouselView.swift; sourceTree = "<group>"; };
+		3CC400B52C1CEE0F00A96CAE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		3CC400B72C1CFC2E00A96CAE /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
 		3CFEFF352C0CD62C005EE494 /* HanmaumChurchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanmaumChurchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFEFF382C0CD62C005EE494 /* HanmaumChurchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanmaumChurchAppApp.swift; sourceTree = "<group>"; };
 		3CFEFF3A2C0CD62C005EE494 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -128,6 +134,8 @@
 				3CFEFF5D2C0CDB7E005EE494 /* ToDoListItemView.swift */,
 				3CFEFF712C0DA849005EE494 /* CustomHeaderView.swift */,
 				3CFEFF732C0DB18C005EE494 /* CustomButton.swift */,
+				3CC400B32C1CEDEE00A96CAE /* ScrollingCarouselView.swift */,
+				3CC400B72C1CFC2E00A96CAE /* RoomView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,6 +160,7 @@
 				3CFEFF5F2C0CDBD0005EE494 /* User.swift */,
 				3CFEFF612C0CDBDC005EE494 /* ToDoListItem.swift */,
 				3CB972212C0E4F7000C5CBF8 /* Entry.swift */,
+				3CC400B52C1CEE0F00A96CAE /* Card.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -270,6 +279,7 @@
 				3CFEFF562C0CDB0A005EE494 /* ToDoListView.swift in Sources */,
 				3CFEFF5C2C0CDB55005EE494 /* RegisterView.swift in Sources */,
 				3CFEFF6C2C0CDC65005EE494 /* RegisterViewViewModel.swift in Sources */,
+				3CC400B82C1CFC2E00A96CAE /* RoomView.swift in Sources */,
 				3CFEFF662C0CDC37005EE494 /* ProfileViewViewModel.swift in Sources */,
 				3CFEFF542C0CDAEC005EE494 /* ProfileView.swift in Sources */,
 				3CFEFF602C0CDBD0005EE494 /* User.swift in Sources */,
@@ -278,11 +288,13 @@
 				3CFEFF682C0CDC47005EE494 /* ToDoListViewViewModel.swift in Sources */,
 				3CFEFF392C0CD62C005EE494 /* HanmaumChurchAppApp.swift in Sources */,
 				3CB972222C0E4F7000C5CBF8 /* Entry.swift in Sources */,
+				3CC400B62C1CEE1000A96CAE /* Card.swift in Sources */,
 				3CFEFF7D2C0E3EFD005EE494 /* HomeView.swift in Sources */,
 				3CFEFF792C0DC5F7005EE494 /* Extensions.swift in Sources */,
 				3CFEFF622C0CDBDC005EE494 /* ToDoListItem.swift in Sources */,
 				3CFEFF582C0CDB3B005EE494 /* NewItemView.swift in Sources */,
 				3CFEFF6A2C0CDC58005EE494 /* NewItemViewViewModel.swift in Sources */,
+				3CC400B42C1CEDEE00A96CAE /* ScrollingCarouselView.swift in Sources */,
 				3CFEFF702C0CDCC9005EE494 /* ToDoListItemViewViewModel.swift in Sources */,
 				3CB972242C0E5B3200C5CBF8 /* EntryView.swift in Sources */,
 			);

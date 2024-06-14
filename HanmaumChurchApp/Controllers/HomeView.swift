@@ -11,11 +11,12 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
-                // LD News
                 Text("LD News")
-                // Room image
-                Text("Room image")
+                    .bold()
+                    .padding()
+                ScrollingCarouselView()
             }
+            .padding(.top, 50)
         }
     }
 }

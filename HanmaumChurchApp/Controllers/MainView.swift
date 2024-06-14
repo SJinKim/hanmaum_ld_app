@@ -39,6 +39,10 @@ struct MainView: View {
                 .tabItem {
                     Label("Profile", systemImage: "person.circle")
                 }
+            RoomView()
+                .tabItem {
+                    Label("Room", systemImage: "rectangle.3.group.bubble")
+                }
         }
     }
 }
